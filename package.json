@@ -1,0 +1,11 @@
+{
+  "name": "orbit-work-os",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": ["apps/web"],
+  "scripts": {
+    "dev:web": "npm run dev --workspace orbit-web",
+    "build:web": "npm run build --workspace orbit-web",
+    "typecheck:web": "npm run typecheck --workspace orbit-web"
+  }
+}
